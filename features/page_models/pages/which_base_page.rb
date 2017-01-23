@@ -1,9 +1,5 @@
 module PageModels
   class WhichBasePage < SitePrism::Page
-    # section :header, RadioNav, '#rsn-wrap'
-    # section :footer, Footer, '#footer-wrapper'
-
-
     def all_there_displayed
       self.class.mapped_items.each do |element_page|
         send element_page.to_sym
