@@ -1,21 +1,20 @@
 # Television tests
 
 <b>To run tests</b>
-
--- I have automated the tests in the file television_list_page.feature.
--- I have used Page object model to create the framework.
-
-
 Run command- bundle exec cucumber --tags @new_tests
+
+<p>This framwework uses Page Object model </p>
 
 I have created three main folders
 Page Models
 Step definition
 Support
---Page Models- This framwework uses Page Object model. 
----- Pages
----- Page assertions
----- Section
+
+<b>Page Models</b>
+ Pages
+ Page assertions
+ Section
+
 Television Page is essentially broken down into various sections namely:
 1. Left Filter panel
 2. Page container
